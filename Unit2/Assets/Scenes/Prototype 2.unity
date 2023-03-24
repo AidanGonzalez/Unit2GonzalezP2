@@ -438,6 +438,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0086136
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.99985445
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00072960166
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.014705546
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
 --- !u!1 &534669902
@@ -553,6 +569,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3613a4ddcf38a36488c556bbd5fa3803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sideSpawnMinZ: 0
+  sideSpawnMaxZ: 0
+  sideSpawnX: 0
   animalPrefabs:
   - {fileID: 8843261945076196599, guid: 1ae52c6357010c340a2d171a03b6556f, type: 3}
   - {fileID: 2814666225149716689, guid: 7aed90bd0df362846aec5b7ed32f567a, type: 3}
@@ -769,6 +788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xRange: 10
-  speed: 10
+  speed: 14
   horizontalInput: 0
+  verticalInput: 0
   projectilePrefab: {fileID: 6328630392452756114, guid: e06dfe0b6ed5c6e4cafafbbb59ef8e59, type: 3}
